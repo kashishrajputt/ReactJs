@@ -1,15 +1,13 @@
-
 import Header from '@/Components/Header'
 import React from 'react'
-
-const page = () => {
+Header
+const about = () => {
   return (
     <div>
-      <Header />
-      <h1>This is Home Page</h1>
-      
+        <Header />
+      <h1> About </h1>
     </div>
   )
 }
 
-export default page
+export default about

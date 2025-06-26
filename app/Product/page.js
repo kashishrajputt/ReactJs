@@ -1,15 +1,14 @@
-
 import Header from '@/Components/Header'
 import React from 'react'
 
-const page = () => {
+const product = () => {
   return (
     <div>
-      <Header />
-      <h1>This is Home Page</h1>
+        <Header />
+        <h1>Product</h1>
       
     </div>
   )
 }
 
-export default page
+export default product
